@@ -16,13 +16,13 @@ public class RubyController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         // deleted code here, debug
         Vector2 position = transform.position;
-        position.x = position.x + 3.5f * horizontal * Time.deltaTime;
+        position.x = position.x + 5f * horizontal * Time.deltaTime;
         transform.position = position;
 
         float Vertical = Input.GetAxis("Vertical");
         Debug.Log(Vertical);
         Vector2 axis = transform.position;
-        axis.y = axis.y + 3.5f * Vertical * Time.deltaTime;
+        axis.y = axis.y + 5f * Vertical * Time.deltaTime;
         transform.position = axis;
     }
 }
