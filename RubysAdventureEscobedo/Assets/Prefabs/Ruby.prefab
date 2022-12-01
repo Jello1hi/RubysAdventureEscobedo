@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5908511804686442304}
   - component: {fileID: 650403683335385710}
   - component: {fileID: 1342082681}
+  - component: {fileID: 7717553576488453495}
   m_Layer: 0
   m_Name: Ruby
   m_TagString: Untagged
@@ -150,6 +151,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.41114426, y: 0.529583}
   m_EdgeRadius: 0
+--- !u!95 &7717553576488453495
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5908511804686442307}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b77822e0485373d40b5beb92e9a5e728, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5908511805092370581
 GameObject:
   m_ObjectHideFlags: 0
