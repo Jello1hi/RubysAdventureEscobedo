@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class RubyController : MonoBehaviour
@@ -6,6 +8,8 @@ public class RubyController : MonoBehaviour
 
     public int maxHealth = 5;
     public float timeInvincible = 2.0f;
+
+    public GameObject projectilePrefab;
 
     public int health { get { return currentHealth; } }
     int currentHealth;
@@ -53,6 +57,10 @@ public class RubyController : MonoBehaviour
             if (invincibleTimer < 0)
                 isInvincible = false;
         }
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            Launch();
+        }
     }
 
     void FixedUpdate()
@@ -92,6 +100,7 @@ public class RubyController : MonoBehaviour
         projectile.Launch(lookDirection, 300);
 
         animator.SetTrigger("Launch");
+       
     }
 }
 

@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5908511804686442305}
   - component: {fileID: 5908511804686442306}
-  - component: {fileID: 5908511804686442304}
   - component: {fileID: 650403683335385710}
   - component: {fileID: 1342082681}
   - component: {fileID: 7717553576488453495}
-  m_Layer: 0
+  - component: {fileID: 7007589171280693173}
+  m_Layer: 8
   m_Name: Ruby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,21 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &5908511804686442304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5908511804686442307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e18290817d046ef42a737d5f2637afa3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  maxHealth: 5
-  timeInvincible: 2
 --- !u!50 &650403683335385710
 Rigidbody2D:
   serializedVersion: 4
@@ -171,6 +156,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7007589171280693173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5908511804686442307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18290817d046ef42a737d5f2637afa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  maxHealth: 5
+  timeInvincible: 2
+  projectilePrefab: {fileID: 2168378404746456823, guid: 85a16449f5f19734e9362494cc313884, type: 3}
 --- !u!1 &5908511805092370581
 GameObject:
   m_ObjectHideFlags: 0
