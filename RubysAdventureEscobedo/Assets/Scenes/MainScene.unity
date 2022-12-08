@@ -995,7 +995,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 191.8, y: -64.279}
+  m_AnchoredPosition: {x: 212.7, y: -54.4}
   m_SizeDelta: {x: 316.9462, y: 128.55841}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &262978174
@@ -2575,6 +2575,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7854999993084075381, guid: ef5f614baa842f549be82e7ece3fbdd9, type: 3}
   m_PrefabInstance: {fileID: 1821938584}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &559589331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1824286037166053418, guid: 2c818f0c2d58c0a4490f282664d539ff, type: 3}
+  m_PrefabInstance: {fileID: 1824286036940274178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &559589332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559589331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2ef14b45a39aa946ab40ca75018e020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &564781244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5100,10 +5117,10 @@ RectTransform:
   m_Father: {fileID: 262978173}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 78.868164, y: -64}
-  m_SizeDelta: {x: 76.0735, y: 78.481}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.7184654, y: 1}
+  m_AnchoredPosition: {x: -34.631836, y: 0}
+  m_SizeDelta: {x: -150.9265, y: -49.518997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &944061966
 MonoBehaviour:
@@ -5968,6 +5985,8 @@ GameObject:
   - component: {fileID: 1160982676}
   - component: {fileID: 1160982678}
   - component: {fileID: 1160982677}
+  - component: {fileID: 1160982680}
+  - component: {fileID: 1160982679}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -5991,10 +6010,10 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.6812258}
-  m_AnchoredPosition: {x: 89.9, y: 16.7}
-  m_SizeDelta: {x: 0, y: 25}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 93.8, y: 3.4}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: -0.000000035390258, y: 0.5}
 --- !u!114 &1160982677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6033,6 +6052,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160982675}
   m_CullTransparentMesh: 1
+--- !u!114 &1160982679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160982675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96f862f32e2f7648b5a24078861cb96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask: {fileID: 0}
+--- !u!114 &1160982680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160982675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
 --- !u!1001 &1178039901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99054,11 +99099,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5908511805092370578, guid: 9cf0232bb7b1ae2419d36d0353d53c93, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.5024033
+      value: 3.489296
       objectReference: {fileID: 0}
     - target: {fileID: 5908511805092370578, guid: 9cf0232bb7b1ae2419d36d0353d53c93, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5073891
+      value: -1.5072289
       objectReference: {fileID: 0}
     - target: {fileID: 5908511805092370578, guid: 9cf0232bb7b1ae2419d36d0353d53c93, type: 3}
       propertyPath: m_LocalPosition.z
