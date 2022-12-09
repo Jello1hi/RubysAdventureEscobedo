@@ -41,7 +41,7 @@ BlendTree:
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   m_BlendParameter: Move X
-  m_BlendParameterY: 'Move Y '
+  m_BlendParameterY: 'MoveY '
   m_MinThreshold: 0
   m_MaxThreshold: 0.75
   m_UseAutomaticThresholds: 1
@@ -83,7 +83,7 @@ AnimatorController:
   m_Name: Robot
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: 'Move Y '
+  - m_Name: 'MoveY '
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
